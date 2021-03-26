@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 60px;
+    background-color: rgb(5, 253, 5);
+}
+
+.logo > img {
+    margin-left: 20px;
+    width: 100px;
+    height: 45px;
+}
+
+.signin {
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.signin__avatar {
+    margin-right: 10px;
+    font-size: 45px !important;
+    color: rgb(104, 94, 94) !important;
+}
+
